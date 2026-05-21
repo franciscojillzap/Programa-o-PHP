@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Q1 - Triângulo</title>
+</head>
+<body>
+    <!--
+    Ler 3 números (eles representam os lados de um triângulo)
+    Verificar se a soma dos valores é IGUAL A 180°, se sim é um TRIÂNGULO
+    Depois, definir se o triângulo é:
+        ACUTÂNGULO - ângulos < 90°
+        RETÂNGULO - 1 ângulo = 90°
+        OBTUSÂNGULO - 1 ângulo > 90°
+    -->
+
+    <form method="post" name="formulario" action="triangulos.php">
+        <p>
+            <label for="lado_a">Lado A:</label>
+            <input type="number" name="lado_a" placeholder="Valor do lado A - Triângulo" required>
+        </p>
+
+        <p>
+            <label for="lado_b">Lado B:</label>
+            <input type="number" name="lado_b" placeholder="Valor do lado B - Triângulo" required>
+        </p>
+
+        <p>
+            <label for="lado_c">Lado C:</label>
+            <input type="number" name="lado_c" placeholder="Valor do lado C - Triângulo" required>
+        </p>
+
+        <button type="submit">Confirmar</button>
+        <button type="reset">Limpar</button>
+
+        <br><br>
+        
+        <a href="index.html">Voltar ao início</a>
+    </form>
+</body>
+</html>
